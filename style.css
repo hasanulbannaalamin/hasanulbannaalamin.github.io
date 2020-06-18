@@ -1,0 +1,137 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    outline: 0;
+
+}
+.main{
+    width:1170px;
+    
+   
+}
+.maincontant{
+    margin: 15px 0px;
+    width: 100%
+    display: flex;
+   
+}
+.fix{
+    overflow: hidden;
+}
+.logo{
+    width: 250px;
+    float: left;
+   
+}
+.menubar{
+    float: right;
+    width: calc(100%-250px);
+    
+}
+.menubar ul{
+  
+}
+.menubar ul li{
+   display:inline-flex;
+    
+
+}
+.menubar ul li a{
+    text-decoration: none;
+    padding: 10px;
+
+}
+.menubar ul li a:hover{
+    background-color: whitesmoke;
+    color:blue;
+    border-radius: 10px;
+}
+.image{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    
+    
+  
+}
+.image img{
+    height: 600px;
+    width: 100%;
+    margin-top: 20px;
+}
+.shadow-box{
+    width: 750px;
+    height:600px ;
+    background-color:#CAE8D5;
+    position: absolute;
+    bottom:-150px;
+    right: 0px;
+    z-index: -1;
+}
+#quote{
+    background-color:#CAE8D5;
+    border-radius: 20px;
+    color: white;
+}
+.service{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.marrige{
+    
+}
+
+.post-1{
+    width: 50%;
+    margin: 0px;
+    float: left;
+
+    display: flex;
+    align-items: center;
+}
+.post-1 img{
+    width: 250px;
+}
+.text {
+    text-align:left;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 20px;
+
+}
+.text p{
+    color:gray;
+}
+
+ 
+.menubar{
+    margin-top: 20px;
+}
+.post-2{
+    width: 50%;
+    margin: 0px;
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.text1{
+    text-align: left;
+    margin-bottom:10px;
+    font-size: 20px;
+}
+.post-2 img{
+    width: 250px;
+    padding: 20px;
+}
+.text1 p{
+    color:gray;
+ 
+}
+.feature h1{
+    text-align: center;
+    margin-bottom:20px ;
+}
